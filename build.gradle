@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    implementation group: 'io.projectreactor', name: 'reactor-core', version: '3.4.11'
+// https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    testImplementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.3.0-alpha10'
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-test
+    testImplementation group: 'io.projectreactor', name: 'reactor-test', version: '3.4.11'
+    implementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.29'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}

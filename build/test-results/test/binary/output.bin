@@ -1,0 +1,5 @@
+W13:35:36.563 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+…13:35:36.590 [Test worker] INFO reactor.Mono.PeekTerminal.1 - | onSubscribe([Fuseable] MonoPeekTerminal.MonoTerminalPeekSubscriber)
+T13:35:36.593 [Test worker] INFO reactor.Mono.PeekTerminal.1 - | request(unbounded)
+O13:35:36.595 [Test worker] INFO reactor.Mono.PeekTerminal.1 - | onNext(Empty)
+N13:35:36.596 [Test worker] INFO reactor.Mono.PeekTerminal.1 - | onComplete()

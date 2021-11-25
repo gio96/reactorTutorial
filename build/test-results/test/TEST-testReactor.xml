@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testReactor" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-04T18:35:36" hostname="DESKTOP-6F9PHP1" time="0.104">
+  <properties/>
+  <testcase name="expectDoOnErrorReturn()" classname="testReactor" time="0.104"/>
+  <system-out><![CDATA[13:35:36.563 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+13:35:36.590 [Test worker] INFO reactor.Mono.PeekTerminal.1 - | onSubscribe([Fuseable] MonoPeekTerminal.MonoTerminalPeekSubscriber)
+13:35:36.593 [Test worker] INFO reactor.Mono.PeekTerminal.1 - | request(unbounded)
+13:35:36.595 [Test worker] INFO reactor.Mono.PeekTerminal.1 - | onNext(Empty)
+13:35:36.596 [Test worker] INFO reactor.Mono.PeekTerminal.1 - | onComplete()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
